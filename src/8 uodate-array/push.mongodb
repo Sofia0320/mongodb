@@ -1,0 +1,10 @@
+use("espoch_store")
+
+db.inventory.updateOne({_id:5}, {
+    $push: {
+        tags:{
+            $each:["Carlos","Sofia"]
+        }
+    }
+})
+db.inventory.find()

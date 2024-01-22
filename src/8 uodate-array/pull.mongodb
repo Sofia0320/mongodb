@@ -1,0 +1,8 @@
+use("espoch_store")
+
+db.inventory.updateOne({_id:4}, {
+    $pull: {
+        tags: ["Carlos", "Sofia"]
+    }
+})
+db.inventory.find() 

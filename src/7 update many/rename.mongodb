@@ -1,0 +1,12 @@
+use("sample_training")
+db.zips.updateMany(
+    //query
+    {city:"JEMISON"},
+    //update
+    {
+        $rename:{
+            direcciondos: "amazonas",
+            direccionuno: "flor",
+        }
+    }
+)

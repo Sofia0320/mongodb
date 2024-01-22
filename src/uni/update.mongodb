@@ -1,0 +1,11 @@
+use("bd6")
+db.universidad.updateOne(
+    //query
+    {_id:6},
+    //change
+    {
+        $set:{
+            ciudad: "coca"
+        }
+    }
+)

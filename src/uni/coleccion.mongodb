@@ -1,0 +1,11 @@
+use("practica")
+db.createCollection("universidades")
+
+use("practica")
+db.createCollection("tarea")
+
+use("practica")
+db.createCollection("materias")
+
+use("practica")
+db.createCollection("horas")

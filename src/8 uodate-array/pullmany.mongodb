@@ -1,0 +1,11 @@
+//eliminar 1 datos en varios
+use("espoch_store")
+
+db.inventory.updateOne({ }, {
+    $pull: {
+        tags:"book"
+    }
+})
+db.inventory.find() 
+
+

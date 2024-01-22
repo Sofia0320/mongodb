@@ -1,0 +1,14 @@
+use("Espoch")
+db.tarea.updateOne(
+        //query
+        {_id:3},
+        //change
+        {
+            $inc:{
+                
+                price:100,
+              
+            }
+        }
+)
+

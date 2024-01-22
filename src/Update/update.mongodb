@@ -1,0 +1,11 @@
+use("practica")
+db.universidades.updateOne(
+    //query
+    {_id:ObjectId("657885010c8958cc382ed636")},
+    //change
+    {
+        $set:{
+            ciudad: "coca"
+        }
+    }
+)

@@ -1,0 +1,32 @@
+use("practica")
+db.tarea.drop()
+db.tarea.insertMany([
+    {
+        _id:1,
+        uni:"ESPOCH",
+        direccion: "sdghb"
+    },
+    {
+        _id:2,
+        uni:"UNACH",
+        direccion: "sdghb"
+        
+    },
+    {
+        
+        uni:"ITSO",
+        direccion: "sdghb"
+    },
+    {
+        
+        uni:"ESPO",
+        direccion: "sdghb"
+    }
+])
+db.tarea.find()
+
+use("practica")
+db.horas.insertOne({
+    name:"Product 4",
+    price:1200
+})

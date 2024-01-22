@@ -1,0 +1,12 @@
+use("sample_training")
+db.zips.updateMany(
+    //query
+    {city:"JEMISON"},
+    //update(2369,1244)
+    {
+        $unset:{
+            direccionn1: "amazonas",
+            direccionn2: "flor",
+        }
+    }
+)

@@ -1,0 +1,13 @@
+use("Espoch")
+db.tarea.updateOne(
+    //query
+    {_id:4},
+    //change
+    {
+        $unset:{
+            name:'change',
+            price:4000,
+            tags:['A', 'B','C']
+        }
+    }
+)

@@ -1,0 +1,23 @@
+use("espoch_store")
+db.products.insertOne({
+    name:"Product 1",
+    price:1200
+})
+
+db.products.insertOne({
+    name:"Product 2",
+    price:1100
+})
+
+use("espoch_store")
+db.products.insertOne({
+    _id:1,
+    name:"Product 1",
+    price:1200
+})
+
+db.products.insertOne({
+    _id:2,
+    name:"Product 2",
+    price:1100
+})

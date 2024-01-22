@@ -1,0 +1,2 @@
+use("practica")
+db.tarea.find()
